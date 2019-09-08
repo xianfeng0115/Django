@@ -8,5 +8,5 @@ def login(request):
     return HttpResponse('<h1>{}<h1>'.format(request.path))
 
 # 404页面的配置
-def page_not_found(request):
+def not_found_page(request):
     return render(request,'404.html')
